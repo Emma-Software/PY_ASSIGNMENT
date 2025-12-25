@@ -47,7 +47,7 @@ while loop_value:
                                 if taxable_income > 372950:
                                     total_tax += (0.35 * (taxable_income - 372950))
 
-        print(f"Your Total tax to pay is: {total_tax}")   
+        print(f"Your Total tax to pay is: {total_tax:.2f}")   
 
     # ===========================================
     #   FOR MARRIED FILING JOINTLY OR WIDOW(ER)
@@ -79,7 +79,7 @@ while loop_value:
                                 if taxable_income > 372950:
                                     total_tax += (0.35 * (taxable_income - 372950))
 
-        print(f"Your Total tax to pay is: {total_tax}")   
+        print(f"Your Total tax to pay is: {total_tax:.2f}")   
 
     # ====================================
     #    FOR MARRIED FILING SEPERATELY
@@ -111,7 +111,7 @@ while loop_value:
                                 if taxable_income > 186475:
                                     total_tax += (0.35 * (taxable_income - 186476))
 
-        print(f"Your Total tax to pay is: {total_tax}")   
+        print(f"Your Total tax to pay is: {total_tax:.2f}")   
 
     # =========================
     #   FOR HEAD OF HOUSEHOLD
@@ -143,7 +143,7 @@ while loop_value:
                                 if taxable_income > 372950:
                                     total_tax += (0.35 * (taxable_income - 372950))
 
-        print(f"Your Total tax to pay is: {total_tax}")   
+        print(f"Your Total tax to pay is: {total_tax:.2f}")   
     
     # Asking if the user would like to calculate another income tax
     user_answer = input("Would you like to calculate another income tax? (Y/N): ")
